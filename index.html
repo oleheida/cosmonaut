@@ -6,10 +6,91 @@
     <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-
+<section class="section-6">
+    <div class="container">
+    <h2>Варианты безлимитного участия</h2>
+        <ul class="nav nav-tabs">
+            <li class="col-lg-1 col-lg-offset-1"><a href="#fast-start">
+                <img src="img/section-6-head-1.png" alt=""/>
+                <p>Быстрый старт</p>
+            </a></li>
+            <li class="col-lg-1 col-lg-offset-2"><a href="#full-reload">
+                <img src="img/section-6-head-2.png" alt=""/>
+                <p>Полная Перезагрузка</p>
+            </a></li>
+            <li class="col-lg-1 col-lg-offset-2 active"><a href="#family">
+                <img src="img/section-6-head-3.png" alt=""/>
+                <p> Семейное участие </p>
+            </a></li>
+            <li class="col-lg-1 col-lg-offset-2"><a href="#all-included">
+                <img src="img/section-6-head-4.png" alt=""/>
+                <p> ВСЁ включено</p>
+            </a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="family" class="tab-pane fade in active">
+                <h3>Семейное участие</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div id="fast-start" class="tab-pane fade">
+                <div class="container">
+                    <div class="col-lg-5">
+                        <img src="img/section-6-body-1.png" alt=""/>
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1">
+                        <p>Быстрый старт</p>
+                        <ul>
+                            <li>Участие</li>
+                            <li>Доступ</li>
+                            <li>Связь</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+            <div id="all-included" class="tab-pane fade">
+                <div class="container">
+                    <div class="col-lg-5">
+                        <img src="img/section-6-body-1.png" alt=""/>
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1">
+                        <p>Быстрый старт</p>
+                        <ul>
+                            <li>Участие</li>
+                            <li>Доступ</li>
+                            <li>Связь</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+            <div id="full-reload" class="tab-pane fade">
+                <div class="container">
+                    <div class="col-lg-5">
+                        <img src="img/section-6-body-1.png" alt=""/>
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1">
+                        <p>Быстрый старт</p>
+                        <ul>
+                            <li>Участие</li>
+                            <li>Доступ</li>
+                            <li>Связь</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+        </div>
+    <script>
+        $(document).ready(function(){
+            $(".nav-tabs a").click(function(){
+                $(this).tab('show');
+            });
+        });
+    </script>
+</section>
 </body>
 </html>
