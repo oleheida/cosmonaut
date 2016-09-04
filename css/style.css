@@ -7,5 +7,16 @@
     font-style: normal;
     font-weight: normal;
 }
-
-
+.nav {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.tab-content ul li a img {
+    margin: 0 auto;
+}
+.tab-content{
+    text-align: left;
+}
+.nav a:hover, .nav a:active {
+    border-bottom: 4px red solid;
+}
