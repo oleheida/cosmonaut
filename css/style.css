@@ -20,7 +20,7 @@
 .nav a:hover, .nav a:active {
     border-bottom: 4px red solid;
 }
-.nav-tabs li:hover, .active {
+.tabs-package:hover, .tabs-package:active {
     font-weight:800;
     border-bottom: 4px red solid;
 }
